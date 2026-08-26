@@ -1,13 +1,13 @@
 # Youth Provision Accessibility and GCSE Underperformance in England
 ### A Repeated Cross-Sectional Bayesian Risk Analysis, 2016/2017–2024/2025
 
-This repository contains the data wrangling notebooks, R scripts, and case study analysis code used to produce the results in this dissertation. The pipeline is organized into three stages: data wrangling (Python), Bayesian spatial modelling (R), and case study/risk profiling analysis (Python).
+This repository contains the data wrangling notebooks, R scripts, and case study analysis code used to produce the results in this dissertation. The pipeline is organized into three stages: data wrangling (Python), Bayesian spatial modeling (R), and case study/risk profiling analysis (Python).
 
 ---
 
 ## DataWrangling
 
-These notebooks were used to produce the final `msoaAgg{period_label}.csv` files used in the R scripts for the cross-sectional analysis.
+These notebooks were used to produce the final `msoaAgg{period_label}.csv` files used in the R scripts for the cross-sectional analysis. Each folder contains its csv outputs as well as the Python file used to generate them. 
 
 ### 1. `SecondarySchools.ipynb`
 - Filters the most up-to-date list of schools within the UK to non-selective, non-PRU secondary schools, sourced from the Department for Education's Key Stage 4 Performance Data by school.
